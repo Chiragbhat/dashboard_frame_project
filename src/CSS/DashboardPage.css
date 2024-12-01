@@ -1,0 +1,360 @@
+.main-area{
+    width: 100%;
+  }
+  
+  .user-management{
+    height: 5vw;
+    border-radius: 0.55vw;
+    background: linear-gradient(90.22deg, #8DCCEC 0.19%, #E2F6FF 115.02%);
+    box-shadow: 8px 8px 12px 1px #E0E0E0;
+  }
+  
+  .user-management-text{
+    margin-left: 1.66vw;
+    font-family: Inter;
+    font-size: 1.66vw;
+    font-weight: 600;
+    line-height: 2.5vw;
+    text-align: left;
+    color: #171717;
+  }
+  
+  .profile-photo{
+    height: 2.5vw;
+    width: 2.5vw;
+  }
+  
+  .user-login-div{
+    margin-left: 0.83vw;
+    margin-right: 1.66vw;
+    font-family: Inter;
+    font-size: 0.97vw;
+    font-weight: 600;
+  }
+  
+  .user-login-arrow{
+    height: 1.38vw!important;
+    width: 1.38vw!important;
+    margin-left: 0.27vw!important;
+  }
+  
+  .user-login-text{
+    font-size: 0.83vw!important;
+    font-weight: 400!important;
+    text-align: left;
+  }
+  
+  .user-profit-div{
+    margin: 1.66vw 0;
+    display: flex;
+  }
+  
+  .user-profit-box{
+    gap: 1.11vw;
+    border-radius: 0.83vw;
+    background: var(--Colours-Background-default-bg, #FFFFFF);
+    box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+  }
+  
+  .user-profit-text-one{
+    margin-top: 1.11vw;
+    margin-left: 0.83vw;
+    gap: 0.27vw;
+  }
+  
+  .user-profit-title{
+    font-family: Inter;
+    font-size: 1.11vw;
+    font-weight: 600;
+    text-align: left;
+    color: #171717;
+  }
+  
+  .user-profit-sub-title{
+    font-family: Inter;
+    font-size: 1.38vw;
+    font-weight: 600;
+    text-align: left;
+    color: #1A7AAF;
+  }
+  .user-profit-content{
+    margin: 0 0.69vw 1.11vw 0.83vw;
+    font-family: Inter;
+    font-size: 0.97vw;
+    font-weight: 400;
+    text-align: left;
+    color: #404040;
+  }
+  
+  .green-arrow{
+    height: 1.38vw;
+    width: 1.38vw;
+  }
+  
+  .green-text{
+    margin-right: 0.55vw;
+    font-weight: 600;
+    color: #4D7C0F;
+  }
+  
+  .red-arrow{
+    height: 1.38vw;
+    width: 1.38vw;
+  }
+  
+  .red-text{
+    margin-right: 0.55vw;
+    font-weight: 600;
+    color: #DC2626;
+  }
+  
+  .user-search-div{
+    margin: 1.66vw 0;
+  }
+  
+  .user-search-bar{
+    width: 20.62vw;
+    height: 3.0vw;
+    border-radius: 2.08vw;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+  }
+  
+  .search-icon{
+    width: 1.66vw;
+    height: 1.66vw;
+  }
+  
+  .search-icon-input {
+    margin-left: 0.69vw;
+    width: 16.59vw;
+    height: 80%;
+    border-radius: 2.08vw;
+    
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+  
+    border: none; 
+    outline: none; 
+  }
+  
+  .search-icon-input::placeholder {
+    color: #6E6E6E; 
+    font-size: 0.97vw; 
+  }
+  
+  .search-filter-btn{
+    height: 1.4vw;
+    width: 1.4vw;
+  }
+  
+  .search-filter-icon{
+    width: 3.0vw;
+    height: 3.0vw;
+    border-radius: 50%;
+    background: #F0F0F3;
+    box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+  }
+  .add-user-btn{
+    margin-left: 1.87vw;
+    width: 7.22vw;
+    height: 3.0vw;
+    border-radius: 2.56vw;
+    background: #8ECDED;
+    
+  
+    font-family: Inter;
+    font-size: 1.11vw;
+    font-weight: 500;
+    text-align: left;
+    color: #171717;
+  }
+  
+  .section-sub-content{
+    padding-left: 3.05vw;
+    width:  100%;
+    height: 3.33vw;
+    cursor: pointer;
+  }
+  
+  .section-sub-content-selected{
+    width:  17.5vw;
+    height: 3.33vw;
+    border-radius: 0.13vw 6.94vw 6.94vw 0.13vw;
+    background: #97DDFF;
+    border-left: 0.13vw solid #102C41
+  }
+  
+  .user-table{
+    position: relative;
+    z-index: 1;
+    border-radius: 0.55vw;
+    border: 1px;
+    box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, #table th {
+    font-family: Inter;
+    font-size: 0.97vw;
+    font-weight: 400;
+    text-align: left;
+    padding: 0.69vw 1.11vw 0.69vw 1.11vw;
+    gap: 4px;
+    border-bottom: 0.5px solid #E4E4E7;
+    background: #fff;
+}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    text-align: left;
+    background: #E4F1FA;
+    color: #171717;
+    padding: 0.69vw 1.11vw 0.69vw 1.11vw;
+    font-family: Inter;
+    font-size: 1.11vw;
+    font-weight: 500;
+    gap: 4px;
+    border-bottom: 0.5px solid #E4E4E7;
+}
+
+table .id-column {
+    color: #005FE3!important;
+
+}
+
+table .status-column {
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-footer-div{
+    height: 3.61vw;
+    background-color: white;
+}
+
+.footer-page-number{
+    font-family: Inter;
+    font-size: 0.83vw;
+    font-weight: 500;
+}
+
+.bold-page-number{
+    font-weight: 600;
+}
+
+.previous-pointer{
+    margin-left: 4.51vw;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000;
+}
+.next-pointer{
+    margin-right: 1.9vw;
+    margin-left: 0.83vw;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000;
+}
+
+.deactivated-pointer{
+    color: #d3d3d379!important;
+}
+
+.row-per-page{
+    font-family: Inter;
+    font-size: 0.83vw;
+    font-weight: 400;
+
+}
+.row-per-page-bold{
+    margin-right: 1.66vw;
+    margin-left: 1.18vw;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+.active-border {
+  width: 4.37vw;
+  height: 1.94vw;
+  padding: 0.48vw 0.69vw;
+  border-radius: 2.98vw;
+  background: #4D7C0F;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deactive-border{
+  width: 6.94vw;
+  height: 1.94vw;
+  border-radius: 2.98vw;
+  background: #9F7C00;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inactive-border{
+  width: 5vw;
+  height: 1.94vw;
+  border-radius: 2.98vw;
+  background: #DC2626;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-popup{
+  position: absolute;
+  z-index: 99999999;
+  top: 1.2vw;
+  right: -1vw;
+  background: #fff;
+  width: 12.98vw;
+  height: 8.88vw;
+  padding: 0.83vw 1.11vw;
+  gap: 1.11vw;
+  border-radius: 4%;
+  box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+  font-family: Inter;
+  font-size: 1.11vw;
+  font-weight: 500;
+  color: #171717;
+}
+
+.action-icon{
+  height: 1.66vw;
+  width: 1.66vw;
+}
+
+.gap-8px{
+  gap: 0.55vw;
+}
+
+.action-div{
+  position: relative;
+}
+
+.{
+  width: 38.61vw;
+  height: 15.27vw;
+  border-radius: 0.55vw;
+  background: #FFFFFF;
+}

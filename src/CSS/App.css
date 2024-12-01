@@ -1,0 +1,14 @@
+.full-screen{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    background-color: #F0F0F3;
+}
+
+.navigation-bar{
+    margin: 1.66vw 0 3.68vw 1.66vw;
+    border-radius: 1.66vw;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 20px 0px #AEAEC080, -5px -5px 20px 0px #FFFFFF;
+}
